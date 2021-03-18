@@ -1,0 +1,36 @@
+Członkowie zespołu: Muszyński Damian d.muszyński.acc@gmail.com 1ID21B
+Temat projektu: Porównanie rozwiązań związanych z testowaniem
+
+Stos technologiczny realizowanego oprogramowania:
+    * IntelliJ IDEA - zintegrowane środowisko programistyczne IDE w jakim będzie implementowana aplikacja.
+    * Git - system kontroli wersji wykorzystwany w projekcie.
+    * Java SE 11 - obiektowy język programowania ogólnego zastosowania.
+    * Maven - narzędzie automatyzujące budowę oprogramowania.
+    * MySQL 8 - system zarządzania relacyjnymi bazami danych.
+    * Spring Boot - framework oparty na języku Java, umożliwiający tworzenie autonomicznych aplikacji internetowych.
+    * Spring Data - jeden z komponentów Springa ułatwiający korzystanie z technologii dostępu do danych,
+        relacyjnych i nierelacyjnych baz danych, struktur ograniczających mapy oraz usług danych w chmurze.
+    * Spring Security - framework, który koncentruje się na zapewnieniu zarówno uwierzytelniania, jak i autoryzacji dla aplikacji Java.
+    * JUnit - framework służący do tworzenia powtarzalnych testów jednostkowych oprogramowania pisanego w języku Java.
+    * Mockito - biblioteka programistyczna udostępniającą API do tworzenia mokowalnych obiektów w Javie.
+        Obiekt mokowany to nic innego niż atrapa implementacja danego obiektu.
+    * TestNG - biblioteka programistyczna służąca do pisania testów dla języka programowania Java.
+    * AssertJ - biblioteka używana do pisania płynnych i bogatych asercji w testach Java.
+
+Harmonogram pracy wraz z funkcjonalnością:
+ ------------------------------------------------------------------------------------------------------------------------------------------
+| Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                           |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+|    19.03.2021    |    01.04.2021    |           2          | Specyfikacja systemu (Przygotowywanego do późniejszych testów)              |
+|    02.04.2021    |    15.04.2021    |           3          | Projektowanie systemu                                                       |
+|    16.04.2021    |    29.04.2021    |           4          | Implementacja systemu                                                       |
+|    30.04.2021    |    13.05.2021    |           5          | Testowanie oprogramowania z wykorzystaniem framework'ów JUnit oraz Mockito  |
+|    14.05.2021    |    27.05.2021    |           6          | Testowanie oprogramowania z wykorzystaniem framework'ów TestNG oraz AssertJ |
+|    28.05.2021    |    10.06.2021    |           7          | Dokumentacja projektu wraz z porównaniem rozwiązań związanych z testowaniem |
+|    11.06.2021    |    24.06.2021    |           8          | Oddanie pracy                                                               |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+
+Podział pracy w zespole: Projekt jest realizowany wyłącznie przeze mnie, więc biorę na siebie cały proces realizacji projektu.
+Temat projekty z przedmiotu "Programowanie Systemów Rozproszonych": TSP - algorytmem genetycznym.
+Temat pracy inżynierskiej: Projekt i implementacja aplikacji webowej dla wielobranżowego sklepu internetowego.
+Temat pracy magisterskiej: nieokreślony.

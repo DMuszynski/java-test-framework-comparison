@@ -1,9 +1,0 @@
-Porównanie wykorzystywanych framework'ów testowych:
-
-Junit -
-
-Mockito -
-
-TestNG -
-
-AssertJ -

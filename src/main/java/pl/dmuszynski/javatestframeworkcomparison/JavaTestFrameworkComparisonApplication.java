@@ -6,6 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JavaTestFrameworkComparisonApplication {
     public static void main(String[] args) {
-        SpringApplication.run(JavaTestFrameworkComparisonApplication.class);
+        SpringApplication.run(JavaTestFrameworkComparisonApplication.class, args);
     }
 }

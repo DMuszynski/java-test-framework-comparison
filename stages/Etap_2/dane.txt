@@ -1,0 +1,18 @@
+Harmonogram pracy na ten etap
+ ------------------------------------------------------------------------------------------------------------------------------------------
+| Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                           |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+|    19.03.2021    |    01.04.2021    |           2          | Specyfikacja systemu (Przygotowywanego do późniejszych testów)              |
+|                  |                  |                      | Porównanie framework'ów związanych z testowaniem                            |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+
+Co zostało zrealizowane w aktualnym etapie ?
+
+W trakcie tego etapu zostały wykonana analiza oraz porównanie framework'ów testowych, których dotyczy projekt.
+W celu zwiększenia przejrzystości owej analizy, została ona wykonana na podstronie wiki na platformie github pod adresem:
+https://github.com/DMuszynski/java-test-framework-comparison/wiki
+
+Co będzie realizowane w kolejnym etapie ?
+
+W kolejnym etapie przygotowany zostanie projekt systemu, który będzie testowany przez różne frameworki testowe.
+W tym etapie również zostaną zdefiniowany plan testów dla owej aplikacji.

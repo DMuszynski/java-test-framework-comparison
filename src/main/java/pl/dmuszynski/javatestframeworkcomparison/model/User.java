@@ -4,11 +4,12 @@ import com.sun.istack.NotNull;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
+import javax.persistence.*;
 import java.util.Collection;
+import java.util.Set;
 
 @Entity
+@Table(name = "USER", schema = "SYS")
 public class User extends AbstractEntity implements UserDetails {
 
     @NotNull
@@ -31,6 +32,12 @@ public class User extends AbstractEntity implements UserDetails {
     @Column(name = "is_enabled")
     private boolean isEnabled;
 
+    @ManyToMany
+    @JoinTable(name = "user_authority",
+            joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "authority_id", referencedColumnName = "id"))
+    private Set<Authority> authorities;
+
     public static final class Builder {
         private Long id;
         private String email;
@@ -38,6 +45,7 @@ public class User extends AbstractEntity implements UserDetails {
         private String password;
         private boolean isLocked;
         private boolean isEnabled;
+        private Set<Authority> authorities;
 
         public Builder id(Long id) {
             this.id = id;
@@ -69,6 +77,12 @@ public class User extends AbstractEntity implements UserDetails {
             return this;
         }
 
+        public Builder authorities(Set<Authority> authorities)
+        {
+            this.authorities = authorities;
+            return this;
+        }
+
         public User build()
         {
             if(email.isEmpty())
@@ -77,6 +91,8 @@ public class User extends AbstractEntity implements UserDetails {
                 throw new IllegalStateException("Username cannot be empty");
             if(password.isEmpty())
                 throw new IllegalStateException("Password cannot be empty");
+            if(authorities.isEmpty())
+                throw new IllegalStateException("Authorities cannot be empty");
 
             final User user = new User();
             user.id = id;
@@ -85,13 +101,14 @@ public class User extends AbstractEntity implements UserDetails {
             user.password = password;
             user.isEnabled = isEnabled;
             user.isLocked = isLocked;
+            user.authorities = authorities;
             return user;
         }
     }
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+        return this.authorities;
     }
 
     public String getEmail() {

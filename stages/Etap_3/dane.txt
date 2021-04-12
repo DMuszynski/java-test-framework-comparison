@@ -1,0 +1,10 @@
+Harmonogram pracy na ten etap
+ ------------------------------------------------------------------------------------------------------------------------------------------
+| Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                           |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+|    19.03.2021    |    01.04.2021    |           3          | Projektowanie systemu i przygotowanie planu testowego                       |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+
+Co zostało zrealizowane w aktualnym etapie ?
+
+Co będzie realizowane w kolejnym etapie ?

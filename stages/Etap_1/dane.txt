@@ -22,12 +22,12 @@ Harmonogram pracy wraz z funkcjonalnością:
  ------------------------------------------------------------------------------------------------------------------------------------------
 |    19.03.2021    |    01.04.2021    |           2          | Specyfikacja systemu (Przygotowywanego do późniejszych testów)              |
 |                  |                  |                      | Porównanie framework'ów związanych z testowaniem                            |
-|    02.04.2021    |    15.04.2021    |           3          | Projektowanie systemu                                                       |
-|    16.04.2021    |    29.04.2021    |           4          | Implementacja systemu                                                       |
-|    30.04.2021    |    13.05.2021    |           5          | Testowanie oprogramowania z wykorzystaniem framework'ów JUnit oraz Mockito  |
-|    14.05.2021    |    27.05.2021    |           6          | Testowanie oprogramowania z wykorzystaniem framework'ów TestNG              |
-|    28.05.2021    |    10.06.2021    |           7          | Dokumentacja projektu wraz z porównaniem rozwiązań związanych z testowaniem |
-|    11.06.2021    |    24.06.2021    |           8          | Oddanie pracy                                                               |
+|    02.04.2021    |    18.04.2021    |           3          | Projektowanie systemu i przygotowanie planu testowego                       |
+|    19.04.2021    |    02.05.2021    |           4          | Implementacja systemu                                                       |
+|    03.04.2021    |    16.05.2021    |           5          | Testowanie oprogramowania z wykorzystaniem framework'ów JUnit oraz Mockito  |
+|    17.05.2021    |    30.05.2021    |           6          | Testowanie oprogramowania z wykorzystaniem framework'ów TestNG              |
+|    31.05.2021    |    13.06.2021    |           7          | Dokumentacja projektu wraz z porównaniem rozwiązań związanych z testowaniem |
+|    14.06.2021    |    27.06.2021    |           8          | Oddanie pracy                                                               |
  ------------------------------------------------------------------------------------------------------------------------------------------
 
 Podział pracy w zespole: Projekt jest realizowany wyłącznie przeze mnie, więc biorę na siebie cały proces realizacji projektu.

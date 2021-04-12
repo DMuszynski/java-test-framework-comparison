@@ -6,5 +6,7 @@ Harmonogram pracy na ten etap
  ------------------------------------------------------------------------------------------------------------------------------------------
 
 Co zostało zrealizowane w aktualnym etapie ?
+Wykonano opis projektowanego systemu, a w dalszej części tego etapu zostanie wykonany plan testowy dla owego projektu.
 
 Co będzie realizowane w kolejnym etapie ?
+W kolejnym etapie będzie wykonywana implementacja projektowanego systemu.

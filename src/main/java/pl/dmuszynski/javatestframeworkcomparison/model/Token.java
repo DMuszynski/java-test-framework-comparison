@@ -18,8 +18,8 @@ public class Token extends AbstractEntity {
 
     public Token() {}
 
-    public Token(Long id, String value) {
-        super(id);
+    public Token(String value, User user) {
+        super(0L);
         this.value = value;
     }
 

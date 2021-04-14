@@ -4,7 +4,7 @@ CREATE TABLE USER
         AUTO_INCREMENT,
     email         VARCHAR(35)  NOT NULL,
     username      VARCHAR(20)  NOT NULL,
-    password      VARCHAR(40)  NOT NULL,
+    password      VARCHAR(60)  NOT NULL,
     is_enabled    BIT          NOT NULL,
     is_locked     BIT          NOT NULL,
 

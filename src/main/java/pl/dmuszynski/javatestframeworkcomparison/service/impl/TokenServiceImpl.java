@@ -32,9 +32,9 @@ public class TokenServiceImpl implements TokenService {
     @Override
     public void sendTokenToUser(User user) {
         final Token userToken = this.generateNewUserToken(user);
-        final String mailSubject = "Potwierdzenie rejestracji konta libso";
+        final String mailSubject = "Potwierdzenie rejestracji konta";
         final String mailContent = "Wymagane potwierdzenie rejestracji. Aby aktywować konto kliknij w poniższy link: \n"
-                + "http://localhost:8080/libso/token?value=" + userToken.getValue();
+                + "http://localhost:8080/app/token?value=" + userToken.getValue();
 
         this.messageService.sendMessage(user.getEmail(), mailSubject, mailContent, true);
     }

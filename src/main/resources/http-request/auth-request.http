@@ -1,0 +1,12 @@
+### Register user
+POST http://localhost:8080/app/sign-up
+Content-Type: application/json
+
+{
+  "username" : "username",
+  "email" : "d.muszynski112@gmail.com",
+  "password" : "password"
+}
+
+### Sign up
+GET http://localhost:8080/app/token?value=f971118d-17c4-4ba8-aa01-8eb5351b01b8

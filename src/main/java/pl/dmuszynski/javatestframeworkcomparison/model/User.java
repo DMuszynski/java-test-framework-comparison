@@ -21,7 +21,7 @@ public class User extends AbstractEntity implements UserDetails {
     private String username;
 
     @NotNull
-    @Column(name = "password", length = 40)
+    @Column(name = "password", length = 60)
     private String password;
 
     @NotNull
@@ -33,7 +33,7 @@ public class User extends AbstractEntity implements UserDetails {
     private boolean isEnabled;
 
     @ManyToMany
-    @JoinTable(name = "user_authority",
+    @JoinTable(name = "USER_AUTHORITY",
             joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
             inverseJoinColumns = @JoinColumn(name = "authority_id", referencedColumnName = "id"))
     private Set<Authority> authorities;

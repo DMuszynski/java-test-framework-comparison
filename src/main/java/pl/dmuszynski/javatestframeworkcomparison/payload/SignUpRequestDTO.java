@@ -7,6 +7,8 @@ public class SignUpRequestDTO implements Serializable {
     private String username;
     private String password;
 
+    public SignUpRequestDTO() {}
+
     public SignUpRequestDTO(String email, String username, String password) {
         this.email = email;
         this.username = username;

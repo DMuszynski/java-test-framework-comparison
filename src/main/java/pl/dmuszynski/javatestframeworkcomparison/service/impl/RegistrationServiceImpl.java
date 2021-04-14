@@ -14,6 +14,7 @@ import pl.dmuszynski.javatestframeworkcomparison.service.TokenService;
 import pl.dmuszynski.javatestframeworkcomparison.validator.UniqueEmailValidator;
 import pl.dmuszynski.javatestframeworkcomparison.validator.UniqueUsernameValidator;
 
+import javax.transaction.Transactional;
 import java.util.Collections;
 
 @Service
@@ -39,19 +40,22 @@ public class RegistrationServiceImpl implements RegistrationService {
         new UniqueEmailValidator(userRepository).validate(email);
 
         final User registerUser = this.userRepository
-                .save(new User.Builder()
-                        .email(email)
-                        .username(username)
-                        .password(passwordEncoder.encode(password))
-                        .authorities(Collections.singleton(this.authorityService
-                                .findAuthorityByAuthorityType(AuthorityType.ROLE_USER)))
-                        .build()
-                );
+            .save(new User.Builder()
+                .email(email)
+                .username(username)
+                .password(passwordEncoder.encode(password))
+                .authorities(Collections.singleton(this.authorityService
+                        .findAuthorityByAuthorityType(AuthorityType.ROLE_USER)))
+                .isEnabled(false)
+                .isLocked(false)
+                .build()
+            );
 
         this.tokenService.sendTokenToUser(registerUser);
     }
 
     @Override
+    @Transactional
     public String activateAccountByUserToken(String tokenValue) {
         final Token foundToken = this.tokenService.findTokenByValue(tokenValue);
         final User tokenUser = foundToken.getUser();

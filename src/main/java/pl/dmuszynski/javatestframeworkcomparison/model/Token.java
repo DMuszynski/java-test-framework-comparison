@@ -26,4 +26,8 @@ public class Token extends AbstractEntity {
     public String getValue() {
         return value;
     }
+
+    public User getUser() {
+        return user;
+    }
 }

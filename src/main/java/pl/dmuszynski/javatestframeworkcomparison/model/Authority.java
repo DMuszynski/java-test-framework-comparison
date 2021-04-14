@@ -20,8 +20,8 @@ public class Authority extends AbstractEntity implements GrantedAuthority {
 
     public Authority() {}
 
-    public Authority(Long id, AuthorityType authorityType) {
-        super(id);
+    public Authority(AuthorityType authorityType) {
+        super(0L);
         this.authorityType = authorityType;
     }
 

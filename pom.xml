@@ -12,8 +12,8 @@
         <spring.security.version>5.4.5</spring.security.version>
         <spring.boot.version>2.4.4</spring.boot.version>
         <flyway.core.verson>7.7.3</flyway.core.verson>
+        <java.jwt.version>3.15.0</java.jwt.version>
         <mockito.version>1.10.19</mockito.version>
-        <assertj.version>3.19.0</assertj.version>
         <testng.version>7.4.0</testng.version>
         <junit.version>4.13.2</junit.version>
         <mysql.version>8.0.23</mysql.version>
@@ -63,6 +63,12 @@
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
             <version>${flyway.core.verson}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>${java.jwt.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>

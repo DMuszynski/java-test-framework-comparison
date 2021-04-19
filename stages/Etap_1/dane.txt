@@ -12,23 +12,25 @@ Stos technologiczny realizowanego oprogramowania:
         relacyjnych i nierelacyjnych baz danych, struktur ograniczających mapy oraz usług danych w chmurze.
     * Spring Security - framework, który koncentruje się na zapewnieniu zarówno uwierzytelniania, jak i autoryzacji dla aplikacji Java.
     * JUnit - framework służący do tworzenia powtarzalnych testów jednostkowych oprogramowania pisanego w języku Java.
+    * EasyMock - framework do tworzenia makiet, który jest używany w połączeniu z innymi bibliotekami do testowania jednostkowego, takimi jak JUnit i TestNG.
+        EasyMock jest bardzo podobny do frameworka do mockowania Mockito.
     * Mockito - biblioteka programistyczna udostępniającą API do tworzenia mokowalnych obiektów w Javie.
         Obiekt mokowany to nic innego niż atrapa implementacja danego obiektu.
     * TestNG - biblioteka programistyczna służąca do pisania testów dla języka programowania Java.
 
 Harmonogram pracy wraz z funkcjonalnością:
- ------------------------------------------------------------------------------------------------------------------------------------------
-| Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                           |
- ------------------------------------------------------------------------------------------------------------------------------------------
-|    19.03.2021    |    01.04.2021    |           2          | Specyfikacja systemu (Przygotowywanego do późniejszych testów)              |
-|                  |                  |                      | Porównanie framework'ów związanych z testowaniem                            |
-|    02.04.2021    |    18.04.2021    |           3          | Projektowanie systemu i przygotowanie planu testowego                       |
-|    19.04.2021    |    02.05.2021    |           4          | Implementacja systemu                                                       |
-|    03.04.2021    |    16.05.2021    |           5          | Testowanie oprogramowania z wykorzystaniem framework'ów JUnit oraz Mockito  |
-|    17.05.2021    |    30.05.2021    |           6          | Testowanie oprogramowania z wykorzystaniem framework'ów TestNG              |
-|    31.05.2021    |    13.06.2021    |           7          | Dokumentacja projektu wraz z porównaniem rozwiązań związanych z testowaniem |
-|    14.06.2021    |    27.06.2021    |           8          | Oddanie pracy                                                               |
- ------------------------------------------------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+| Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                               |
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+|    19.03.2021    |    01.04.2021    |           2          | Specyfikacja systemu (Przygotowywanego do późniejszych testów)                  |
+|                  |                  |                      | Porównanie framework'ów związanych z testowaniem                                |
+|    02.04.2021    |    18.04.2021    |           3          | Projektowanie systemu, dodanie opisu i porównania frameworka EasyMock i Mockito |
+|    19.04.2021    |    02.05.2021    |           4          | Implementacja systemu                                                           |
+|    03.04.2021    |    16.05.2021    |           5          | Testowanie oprogramowania z wykorzystaniem framework'ów JUnit oraz Mockito      |
+|    17.05.2021    |    30.05.2021    |           6          | Testowanie oprogramowania z wykorzystaniem framework'ów TestNG                  |
+|    31.05.2021    |    13.06.2021    |           7          | Dokumentacja projektu wraz z porównaniem rozwiązań związanych z testowaniem     |
+|    14.06.2021    |    27.06.2021    |           8          | Oddanie pracy                                                                   |
+ ----------------------------------------------------------------------------------------------------------------------------------------------
 
 Podział pracy w zespole: Projekt jest realizowany wyłącznie przeze mnie, więc biorę na siebie cały proces realizacji projektu.
 Temat projekty z przedmiotu "Programowanie Systemów Rozproszonych": TSP - algorytmem genetycznym.

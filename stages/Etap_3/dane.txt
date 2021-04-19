@@ -2,12 +2,16 @@ Harmonogram pracy na ten etap
  ------------------------------------------------------------------------------------------------------------------------------------------
 | Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                           |
  ------------------------------------------------------------------------------------------------------------------------------------------
-|    19.03.2021    |    01.04.2021    |           3          | Projektowanie systemu i przygotowanie planu testowego                       |
+|    02.04.2021    |    18.04.2021    |           3          | Projektowanie systemu i przygotowanie planu testowego                       |
  ------------------------------------------------------------------------------------------------------------------------------------------
 
 Co zostało zrealizowane w aktualnym etapie ?
-Wykonano opis projektowanego systemu, a w dalszej części tego etapu zostanie wykonany plan testowy dla owego projektu.
-Zostanie dodany opis i porównanie dla kolejnego frameworka do mockowania
+- Wykonano opis projektowanego systemu,
+- Dodano opis i porównanie frameworków do mockowania Mockito oraz EasyMock
+- Zaimplementowa kilka encji, repozytoriów i serwisów dla przykładowej aplikacji, którą będę testował
 
 Co będzie realizowane w kolejnym etapie ?
-W kolejnym etapie będzie wykonywana implementacja projektowanego systemu.
+W kolejnym etapie będzie wykonywana
+- Implementacja projektowanego systemu,
+- Dodawane będą opisy implementacyjne do wiki projektu
+- Prawdopodobnie pojawią się również pierwsze testy funkcjonalności systemu

@@ -2,7 +2,7 @@ package pl.dmuszynski.javatestframeworkcomparison.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import pl.dmuszynski.javatestframeworkcomparison.model.Token;
+import pl.dmuszynski.javatestframeworkcomparison.model.user.Token;
 
 import java.util.Optional;
 

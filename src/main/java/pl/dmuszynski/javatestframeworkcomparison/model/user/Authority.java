@@ -1,7 +1,8 @@
-package pl.dmuszynski.javatestframeworkcomparison.model;
+package pl.dmuszynski.javatestframeworkcomparison.model.user;
 
 import com.sun.istack.NotNull;
 import org.springframework.security.core.GrantedAuthority;
+import pl.dmuszynski.javatestframeworkcomparison.model.AbstractEntity;
 
 import javax.persistence.*;
 import java.util.Set;

@@ -7,7 +7,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
-import pl.dmuszynski.javatestframeworkcomparison.model.User;
+import pl.dmuszynski.javatestframeworkcomparison.model.user.User;
 import pl.dmuszynski.javatestframeworkcomparison.payload.JwtResponseDTO;
 import pl.dmuszynski.javatestframeworkcomparison.security.JwtUtils;
 import pl.dmuszynski.javatestframeworkcomparison.service.LoginService;

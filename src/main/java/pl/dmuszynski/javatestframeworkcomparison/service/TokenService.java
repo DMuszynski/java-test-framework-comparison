@@ -1,7 +1,7 @@
 package pl.dmuszynski.javatestframeworkcomparison.service;
 
-import pl.dmuszynski.javatestframeworkcomparison.model.Token;
-import pl.dmuszynski.javatestframeworkcomparison.model.User;
+import pl.dmuszynski.javatestframeworkcomparison.model.user.Token;
+import pl.dmuszynski.javatestframeworkcomparison.model.user.User;
 
 public interface TokenService {
     Token findTokenByValue(String value);

@@ -1,8 +1,9 @@
-package pl.dmuszynski.javatestframeworkcomparison.model;
+package pl.dmuszynski.javatestframeworkcomparison.model.user;
 
 import com.sun.istack.NotNull;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import pl.dmuszynski.javatestframeworkcomparison.model.AbstractEntity;
 
 import javax.persistence.*;
 import java.util.Collection;
@@ -85,14 +86,14 @@ public class User extends AbstractEntity implements UserDetails {
 
         public User build()
         {
-            if(email.isEmpty())
-                throw new IllegalStateException("Email cannot be empty");
-            if(username.isEmpty())
-                throw new IllegalStateException("Username cannot be empty");
-            if(password.isEmpty())
-                throw new IllegalStateException("Password cannot be empty");
-            if(authorities.isEmpty())
-                throw new IllegalStateException("Authorities cannot be empty");
+//            if(email.isEmpty())
+//                throw new IllegalStateException("Email cannot be empty");
+//            if(username.isEmpty())
+//                throw new IllegalStateException("Username cannot be empty");
+//            if(password.isEmpty())
+//                throw new IllegalStateException("Password cannot be empty");
+//            if(authorities.isEmpty())
+//                throw new IllegalStateException("Authorities cannot be empty");
 
             final User user = new User();
             user.id = id;

@@ -1,12 +1,13 @@
-package pl.dmuszynski.javatestframeworkcomparison.model;
+package pl.dmuszynski.javatestframeworkcomparison.model.production;
 
 import com.sun.istack.NotNull;
+import pl.dmuszynski.javatestframeworkcomparison.model.AbstractEntity;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "PRODUCTION")
+@Table(name = "PRODUCTION", schema = "SYS")
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Production extends AbstractEntity {
 

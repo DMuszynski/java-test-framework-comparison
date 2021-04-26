@@ -1,4 +1,4 @@
-package pl.dmuszynski.javatestframeworkcomparison.model;
+package pl.dmuszynski.javatestframeworkcomparison.model.user;
 
 public enum AuthorityType {
 

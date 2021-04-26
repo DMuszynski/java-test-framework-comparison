@@ -1,10 +1,10 @@
-package pl.dmuszynski.javatestframeworkcomparison.model;
+package pl.dmuszynski.javatestframeworkcomparison.model.production;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "FILM")
+@Table(name = "FILM", schema = "SYS")
 public class Film extends Production {
 
 }

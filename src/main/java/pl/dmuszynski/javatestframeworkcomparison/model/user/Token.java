@@ -1,6 +1,7 @@
-package pl.dmuszynski.javatestframeworkcomparison.model;
+package pl.dmuszynski.javatestframeworkcomparison.model.user;
 
 import com.sun.istack.NotNull;
+import pl.dmuszynski.javatestframeworkcomparison.model.AbstractEntity;
 
 import javax.persistence.*;
 

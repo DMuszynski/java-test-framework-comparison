@@ -1,7 +1,7 @@
 package pl.dmuszynski.javatestframeworkcomparison.service.impl;
 
-import pl.dmuszynski.javatestframeworkcomparison.model.Authority;
-import pl.dmuszynski.javatestframeworkcomparison.model.AuthorityType;
+import pl.dmuszynski.javatestframeworkcomparison.model.user.Authority;
+import pl.dmuszynski.javatestframeworkcomparison.model.user.AuthorityType;
 import pl.dmuszynski.javatestframeworkcomparison.repository.AuthorityRepository;
 import pl.dmuszynski.javatestframeworkcomparison.service.AuthorityService;
 import org.springframework.beans.factory.annotation.Autowired;

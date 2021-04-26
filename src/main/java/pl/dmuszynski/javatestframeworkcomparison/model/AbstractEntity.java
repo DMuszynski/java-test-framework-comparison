@@ -1,5 +1,4 @@
 package pl.dmuszynski.javatestframeworkcomparison.model;
-import com.sun.istack.NotNull;
 
 import javax.persistence.*;
 

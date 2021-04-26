@@ -20,7 +20,7 @@ public class Token extends AbstractEntity {
     public Token() {}
 
     public Token(String value, User user) {
-        super(0L);
+        super();
         this.user = user;
         this.value = value;
     }

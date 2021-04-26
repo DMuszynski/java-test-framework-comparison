@@ -10,7 +10,7 @@ public abstract class AbstractEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected Long id;
 
-    public AbstractEntity() {}
+    public AbstractEntity() { this.id = 0L; }
 
     public AbstractEntity(Long id) {
         this.id = id;

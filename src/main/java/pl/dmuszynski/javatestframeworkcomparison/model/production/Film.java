@@ -7,4 +7,5 @@ import javax.persistence.Table;
 @Table(name = "FILM", schema = "SYS")
 public class Film extends Production {
 
+    public Film() {}
 }

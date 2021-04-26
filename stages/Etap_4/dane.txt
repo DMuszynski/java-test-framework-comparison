@@ -1,0 +1,13 @@
+Harmonogram pracy na ten etap
+ ------------------------------------------------------------------------------------------------------------------------------------------
+| Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                           |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+|    19.04.2021    |    02.05.2021    |           4          |                 Projektowanie i implementacja systemu                       |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+
+Co zostało zrealizowane w aktualnym etapie ?
+- Dodano opis impmenentowanych encji do wiki projektu
+- Zaimplementowa kilka encji, repozytoriów i serwisów dla przykładowej aplikacji, którą będę testował
+
+Co będzie realizowane w kolejnym etapie ?
+- Testowanie oprogramowania z wykorzystaniem framework'ów JUnit oraz Mockito

@@ -12,15 +12,17 @@ import java.time.LocalDate;
 public abstract class Production extends AbstractEntity {
 
     @NotNull
-    @Column(name = "name")
+    @Column(name = "name", length = 50)
     private String name;
 
     @NotNull
-    @Column(name = "description")
+    @Column(name = "description", length = 500)
     private String description;
 
     @Column(name = "release_date")
     private LocalDate releaseDate;
+
+    public Production() {}
 
     public String getName() {
         return name;

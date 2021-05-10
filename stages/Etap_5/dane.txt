@@ -1,0 +1,11 @@
+Harmonogram pracy na ten etap
+ ------------------------------------------------------------------------------------------------------------------------------------------
+| Data rozpoczęcia | Data zakończenia | Numer etapu projektu |                     Postępy w realizacji projektu                           |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+|    03.05.2021    |     16.05.2021    |           5          | Testowanie oprogramowania z wykorzystaniem framework'ów JUnit oraz Mockito |
+ ------------------------------------------------------------------------------------------------------------------------------------------
+
+Co zostało zrealizowane w aktualnym etapie ?
+
+Co będzie realizowane w kolejnym etapie ?
+- Testowanie oprogramowania z wykorzystaniem framework'ów TestNG oraz EasyMock

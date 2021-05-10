@@ -26,7 +26,7 @@ Harmonogram pracy wraz z funkcjonalnością:
 |                  |                  |                      | Porównanie framework'ów związanych z testowaniem                                |
 |    02.04.2021    |    18.04.2021    |           3          | Projektowanie systemu, dodanie opisu i porównania frameworka EasyMock i Mockito |
 |    19.04.2021    |    02.05.2021    |           4          | Implementacja systemu                                                           |
-|    03.04.2021    |    16.05.2021    |           5          | Testowanie oprogramowania z wykorzystaniem framework'ów JUnit oraz Mockito      |
+|    03.05.2021    |    16.05.2021    |           5          | Testowanie oprogramowania z wykorzystaniem framework'ów JUnit oraz Mockito      |
 |    17.05.2021    |    30.05.2021    |           6          | Testowanie oprogramowania z wykorzystaniem framework'ów TestNG oraz EasyMock    |
 |    31.05.2021    |    13.06.2021    |           7          | Dokumentacja projektu wraz z porównaniem rozwiązań związanych z testowaniem     |
 |    14.06.2021    |    27.06.2021    |           8          | Oddanie pracy                                                                   |

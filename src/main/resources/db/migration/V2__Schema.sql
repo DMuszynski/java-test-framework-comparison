@@ -55,28 +55,22 @@ CREATE TABLE PERSON
     CONSTRAINT FOREIGN_KEY_PERSON_USER FOREIGN KEY (user_id) REFERENCES USER (id) ON DELETE CASCADE
 );
 
-
-
-
-
-
-
 CREATE TABLE PRODUCTION
 (
     id           BIGINT       NOT NULL
         AUTO_INCREMENT,
     name         VARCHAR(50)  NOT NULL,
-    description  VARCHAR(500) NOT NULL,
+    description  VARCHAR(500),
     release_date DATE         NOT NULL,
 
     PRIMARY KEY (id)
 );
 
-
-
 CREATE TABLE FILM
 (
     production_id BIGINT NOT NULL,
+    direction     VARCHAR(30),
+    scenario      VARCHAR(30),
 
     PRIMARY KEY (production_id),
     CONSTRAINT FOREIGN_KEY_FILM_PRODUCTION FOREIGN KEY (production_id) REFERENCES PRODUCTION (id)
@@ -85,6 +79,7 @@ CREATE TABLE FILM
 CREATE TABLE SERIES
 (
     production_id BIGINT NOT NULL,
+    creator       VARCHAR(40),
 
     PRIMARY KEY (production_id),
     CONSTRAINT FOREIGN_KEY_SERIES_PRODUCTION FOREIGN KEY (production_id) REFERENCES PRODUCTION (id)

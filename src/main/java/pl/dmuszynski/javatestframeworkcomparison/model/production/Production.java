@@ -13,16 +13,21 @@ public abstract class Production extends AbstractEntity {
 
     @NotNull
     @Column(name = "name", length = 50)
-    private String name;
+    protected String name;
 
-    @NotNull
     @Column(name = "description", length = 500)
-    private String description;
+    protected String description;
 
     @Column(name = "release_date")
-    private LocalDate releaseDate;
+    protected LocalDate releaseDate;
 
     public Production() {}
+
+    public Production(String name, String description, LocalDate releaseDate) {
+        this.name = name;
+        this.description = description;
+        this.releaseDate = releaseDate;
+    }
 
     public String getName() {
         return name;

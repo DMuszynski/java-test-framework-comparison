@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "IMAGE", schema = "SYS")
+@Table(name = "IMAGE")
 public class Image extends AbstractEntity {
 
 }

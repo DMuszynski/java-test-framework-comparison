@@ -7,7 +7,7 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "PRODUCTION", schema = "SYS")
+@Table(name = "PRODUCTION")
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Production extends AbstractEntity {
 

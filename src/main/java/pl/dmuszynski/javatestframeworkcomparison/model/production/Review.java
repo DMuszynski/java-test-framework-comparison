@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "REVIEW", schema = "SYS")
+@Table(name = "REVIEW")
 public class Review extends AbstractEntity {
     private String description;
     //private User user;

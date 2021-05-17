@@ -8,12 +8,12 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-@Table(name = "AUTHORITY", schema = "SYS")
+@Table(name = "AUTHORITY")
 public class Authority extends AbstractEntity implements GrantedAuthority {
 
     @NotNull
-    @Column(name = "authority_type", unique = true, length = 15)
     @Enumerated(EnumType.STRING)
+    @Column(name = "authority_type", unique = true, length = 15)
     private AuthorityType authorityType;
 
     @ManyToMany(mappedBy = "authorities")

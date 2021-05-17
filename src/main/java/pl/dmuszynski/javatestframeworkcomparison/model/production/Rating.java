@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "RATING", schema = "SYS")
+@Table(name = "RATING")
 public class Rating extends AbstractEntity {
 
     @NotNull

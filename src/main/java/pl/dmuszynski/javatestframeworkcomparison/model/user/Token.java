@@ -6,7 +6,7 @@ import pl.dmuszynski.javatestframeworkcomparison.model.AbstractEntity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "TOKEN", schema = "SYS")
+@Table(name = "TOKEN")
 public class Token extends AbstractEntity {
 
     @NotNull

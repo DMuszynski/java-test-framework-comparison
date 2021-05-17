@@ -10,7 +10,7 @@ import java.util.Collection;
 import java.util.Set;
 
 @Entity
-@Table(name = "USER", schema = "SYS")
+@Table(name = "USER")
 public class User extends AbstractEntity implements UserDetails {
 
     @NotNull
@@ -78,14 +78,12 @@ public class User extends AbstractEntity implements UserDetails {
             return this;
         }
 
-        public Builder authorities(Set<Authority> authorities)
-        {
+        public Builder authorities(Set<Authority> authorities) {
             this.authorities = authorities;
             return this;
         }
 
-        public User build()
-        {
+        public User build() {
 //            if(email.isEmpty())
 //                throw new IllegalStateException("Email cannot be empty");
 //            if(username.isEmpty())
@@ -103,6 +101,7 @@ public class User extends AbstractEntity implements UserDetails {
             user.isEnabled = isEnabled;
             user.isLocked = isLocked;
             user.authorities = authorities;
+
             return user;
         }
     }

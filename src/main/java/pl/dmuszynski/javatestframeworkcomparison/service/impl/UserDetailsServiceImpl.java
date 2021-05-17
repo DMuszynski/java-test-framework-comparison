@@ -5,8 +5,12 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+import pl.dmuszynski.javatestframeworkcomparison.model.user.User;
 import pl.dmuszynski.javatestframeworkcomparison.repository.UserRepository;
 
+import javax.transaction.Transactional;
+
+@Transactional
 @Service(value = "userDetailsService")
 public class UserDetailsServiceImpl implements UserDetailsService {
 
@@ -19,7 +23,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        return this.userRepository.findByUsername(username)
+        final User loadedUser = this.userRepository.findByUsername(username)
                 .orElseThrow(()-> new UsernameNotFoundException("User Not Found with username: " + username));
+        loadedUser.getAuthorities().isEmpty();
+        return loadedUser;
     }
 }

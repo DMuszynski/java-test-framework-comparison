@@ -68,4 +68,24 @@ public class PersonalDetails {
             return personalDetails;
         }
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getBirthPlace() {
+        return birthPlace;
+    }
+
+    public LocalDate getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public LocalDate getDateOfDeath() {
+        return dateOfDeath;
+    }
 }

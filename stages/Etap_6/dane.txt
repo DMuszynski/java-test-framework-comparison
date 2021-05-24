@@ -6,6 +6,7 @@ Harmonogram pracy na ten etap
  ------------------------------------------------------------------------------------------------------------------------------------------
 
 Co zostało zrealizowane w aktualnym etapie ?
+- Rozpoczęto pracę nad aplikacją frontendową projektu
 
 Co będzie realizowane w kolejnym etapie ?
 - Dokumentacja projektu wraz z porównaniem rozwiązań związanych z testowaniem

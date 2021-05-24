@@ -19,6 +19,7 @@ public class Series extends Production {
         private String name;
         private String description;
         private String creator;
+        private String productionPlace;
         private LocalDate releaseDate;
 
         public Series.Builder id(Long id) {
@@ -41,6 +42,11 @@ public class Series extends Production {
             return this;
         }
 
+        public Series.Builder productionPlace(String productionPlace) {
+            this.productionPlace = productionPlace;
+            return this;
+        }
+
         public Series.Builder releaseDate(LocalDate releaseDate) {
             this.releaseDate = releaseDate;
             return this;
@@ -52,6 +58,7 @@ public class Series extends Production {
             series.name = name;
             series.description = description;
             series.creator = creator;
+            series.productionPlace = productionPlace;
             series.releaseDate = releaseDate;
 
             return series;

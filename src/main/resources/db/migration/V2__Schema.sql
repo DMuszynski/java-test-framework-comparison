@@ -57,11 +57,12 @@ CREATE TABLE PERSON
 
 CREATE TABLE PRODUCTION
 (
-    id           BIGINT       NOT NULL
+    id               BIGINT        NOT NULL
         AUTO_INCREMENT,
-    name         VARCHAR(50)  NOT NULL,
-    description  VARCHAR(500),
-    release_date DATE         NOT NULL,
+    name             VARCHAR(50)   NOT NULL,
+    description      VARCHAR(500),
+    production_place VARCHAR(60),
+    release_date     DATE          NOT NULL,
 
     PRIMARY KEY (id)
 );

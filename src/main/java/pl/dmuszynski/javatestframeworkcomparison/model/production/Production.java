@@ -18,14 +18,18 @@ public abstract class Production extends AbstractEntity {
     @Column(name = "description", length = 500)
     protected String description;
 
+    @Column(name = "production_place", length = 60)
+    protected String productionPlace;
+
     @Column(name = "release_date")
     protected LocalDate releaseDate;
 
     public Production() {}
 
-    public Production(String name, String description, LocalDate releaseDate) {
+    public Production(String name, String description, String productionPlace, LocalDate releaseDate) {
         this.name = name;
         this.description = description;
+        this.productionPlace = productionPlace;
         this.releaseDate = releaseDate;
     }
 
@@ -39,5 +43,9 @@ public abstract class Production extends AbstractEntity {
 
     public LocalDate getReleaseDate() {
         return releaseDate;
+    }
+
+    public String getProductionPlace() {
+        return productionPlace;
     }
 }

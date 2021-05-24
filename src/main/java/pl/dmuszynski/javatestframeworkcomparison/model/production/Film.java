@@ -23,6 +23,7 @@ public class Film extends Production {
         private String description;
         private String direction;
         private String scenario;
+        private String productionPlace;
         private LocalDate releaseDate;
 
         public Film.Builder id(Long id) {
@@ -50,6 +51,11 @@ public class Film extends Production {
             return this;
         }
 
+        public Film.Builder productionPlace(String productionPlace) {
+            this.productionPlace = productionPlace;
+            return this;
+        }
+
         public Film.Builder releaseDate(LocalDate releaseDate) {
             this.releaseDate = releaseDate;
             return this;
@@ -62,6 +68,7 @@ public class Film extends Production {
             film.description = description;
             film.direction = direction;
             film.scenario = scenario;
+            film.productionPlace = productionPlace;
             film.releaseDate = releaseDate;
 
             return film;

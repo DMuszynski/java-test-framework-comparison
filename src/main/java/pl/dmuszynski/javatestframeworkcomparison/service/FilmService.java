@@ -1,12 +1,13 @@
 package pl.dmuszynski.javatestframeworkcomparison.service;
 
-import pl.dmuszynski.javatestframeworkcomparison.payload.PersonDTO;
+import pl.dmuszynski.javatestframeworkcomparison.payload.FilmDTO;
 
 import java.util.Set;
 
 public interface FilmService {
-    void createFilm(PersonDTO userPersonDetails, Long userId);
-    void updateFilm(PersonDTO userPersonDetails, Long userId, Long personId);
-    void deleteFilmById(Long userId , Long personId);
-    Set<PersonDTO> findAllFilms();
+    void createFilm(FilmDTO filmDetails);
+    void updateFilm(FilmDTO filmDetails, Long filmId);
+    void deleteFilmById(Long filmId);
+    Set<FilmDTO> findAllFilms();
+    FilmDTO findFilmById(Long filmId);
 }
